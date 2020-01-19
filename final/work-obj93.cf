@@ -1,0 +1,10 @@
+v 4
+file . "SLT.vhd" "80b402dfea2f1de8233f6f52916efd34fc3d4162" "20191130151737.824":
+  entity fulladder at 1( 0) + 0 on 11;
+  architecture fulladder_arch of fulladder at 12( 136) + 0 on 12;
+  entity alu1bit at 25( 384) + 0 on 13;
+  architecture alu1bit of alu1bit at 37( 608) + 0 on 14;
+  entity or_port at 71( 1349) + 0 on 15;
+  architecture or_port of or_port at 81( 1503) + 0 on 16;
+  entity alu at 87( 1592) + 0 on 17;
+  architecture alu of alu at 105( 1990) + 0 on 18;
